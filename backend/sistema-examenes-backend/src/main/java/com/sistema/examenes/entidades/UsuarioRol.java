@@ -20,6 +20,12 @@ public class UsuarioRol {
 	
 	@ManyToOne
 	private Rol rol;
+	
+	
+
+	public UsuarioRol() {
+
+	}
 
 	public Long getUsuarioRolId() {
 		return usuarioRolId;

@@ -32,6 +32,13 @@ public class Usuario {
 	@OneToMany(cascade=CascadeType.ALL, fetch = FetchType.EAGER, mappedBy = "usuario")
 	private Set<UsuarioRol> usuarioRoles = new HashSet<>();
 
+	
+	
+	
+	public Usuario() {
+
+	}
+
 	public Long getId() {
 		return id;
 	}
